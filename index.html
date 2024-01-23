@@ -26,31 +26,31 @@
     <!-- header section start -->
 
     <!-- slider section -->
-    <header class="container mx-auto">
-        <div class="carousel w-full">
-            <div id="slide1" class="carousel-item relative bg-cover w-full rounded-2xl h-[60vh]">
+    <header class="container px-8 lg:px-0 lg:mx-auto">
+        <div class="carousel lg:w-full">
+            <div id="slide1" class="carousel-item relative bg-center w-full rounded-2xl">
                 <img src="./Images/1.png" class="w-full" />
                 <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                     <a href="#slide4" class="btn btn-circle">❮</a>
                     <a href="#slide2" class="btn btn-circle">❯</a>
                 </div>
             </div>
-            <div id="slide2" class="carousel-item relative bg-cover w-full h-[60vh] ">
-                <img src="./Images/2.png" class="w-full" />
+            <div id="slide2" class="carousel-item relative bg-center w-full">
+                <img src="./Images/pr01.png" class="w-full" />
                 <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                     <a href="#slide1" class="btn btn-circle">❮</a>
                     <a href="#slide3" class="btn btn-circle">❯</a>
                 </div>
             </div>
-            <div id="slide3" class="carousel-item relative bg-cover w-full h-[60vh]">
-                <img src="./Images/3.png" class="w-full" />
+            <div id="slide3" class="carousel-item relative bg-center w-full">
+                <img src="./Images/pr02.png" class="w-full" />
                 <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                     <a href="#slide2" class="btn btn-circle">❮</a>
                     <a href="#slide4" class="btn btn-circle">❯</a>
                 </div>
             </div>
-            <div id="slide4" class="carousel-item relative bg-cover w-full h-[60vh]">
-                <img src="./Images/4.png" class="w-full" />
+            <div id="slide4" class="carousel-item relative bg-center w-full">
+                <img src="./Images/pr03.png" class="w-full" />
                 <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                     <a href="#slide3" class="btn btn-circle">❮</a>
                     <a href="#slide1" class="btn btn-circle">❯</a>
@@ -71,7 +71,7 @@
     <!-- main section start -->
     <main class="container mx-auto">
         <!-- professional hockey section -->
-        <section>
+        <section class="mx-8 lg:mx-0">
             <div>
                 <h3 class="text-center lg:text-4xl font-extrabold text-[#131318] pt-12">Professional Hockeys Club</h3>
                 <p class="text-center px-4 lg:w-1/2 mx-auto text-base font-medium text-[#131318] opacity-60 lg:pt-6">Dit
@@ -114,7 +114,7 @@
 
         </section>
         <!-- program section -->
-        <section>
+        <section class="mx-8 lg:mx-0">
             <div>
                 <h3 class="text-center lg:text-4xl font-extrabold text-[#131318] pt-12">Program Sections</h3>
                 <p class="text-center px-4 lg:w-1/2 mx-auto text-base font-medium text-[#131318] opacity-60 pt-6">Dit
@@ -171,7 +171,7 @@
             <hr class="border-dashed mt-12 lg:mt-20 mb-4">
         </section>
         <!-- our product section -->
-        <section>
+        <section class="mx-8 lg:mx-0">
             <div>
                 <h3 class="text-center lg:text-4xl font-extrabold text-[#131318] pt-12">Our New Products</h3>
                 <p class="text-center px-4 lg:w-1/2 mx-auto text-base font-medium text-[#131318] opacity-60 pt-6">Dit
@@ -416,7 +416,7 @@
 
         </section>
         <!-- clients question section -->
-        <section>
+        <section class="mx-8 lg:mx-0">
             <div>
                 <h3 class="text-center lg:text-4xl font-extrabold text-[#131318] pt-12">Clients Question</h3>
                 <p class="text-center px-4 lg:w-1/2 mx-auto text-base font-medium text-[#131318] opacity-60 pt-6">Dit
@@ -496,7 +496,7 @@
 
         </section>
         <!-- get in touch section -->
-        <section>
+        <section class="mx-8 lg:mx-0">
             <div>
                 <h3 class="text-center lg:text-4xl font-extrabold text-[#131318] pt-12">Get In Touch</h3>
                 <p class="text-center px-4 lg:w-1/2 mx-auto text-base font-medium text-[#131318] opacity-60 pt-6">Dit
@@ -531,7 +531,7 @@
                     </div>
 
                 </div>
-                <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+                <div>
                     <div>
                         <label for="">Your Name</label>
                         <input type="text" placeholder="Enter your full name"
@@ -555,9 +555,26 @@
                         <textarea class="w-full textarea textarea-bordered" placeholder="Write your message"
                             rows="5"></textarea>
                     </div>
+                    <button
+                        class="flex flex-col text-xl font-bold text-white bg-[#FF4240] hover:bg-red-400 border-[1px] border-[#FF4240] rounded-lg px-5 py-3">Message
+                        me</button>
                 </div>
 
             </div>
+
+        </section>
+        <!-- social media section -->
+        <section class="h-[150px] mx-8 lg:mx-0 bg-gray-100 mt-10 rounded-xl">
+            <h3 class="text-center pt-11 text-2xl text-black font-extrabold">Social Media</h3>
+            <div class="text-center pt-5 space-x-6">
+                <a class="text-blue-500 text-3xl" href=""><i class="fa-brands fa-twitter"></i></a>
+                <a class="text-blue-800 text-3xl" href=""><i class="fa-brands fa-facebook"></i></a>
+                <a class="text-purple-600 text-3xl " href=""><i class="fa-brands fa-instagram"></i></a>
+                <a class="text-3xl" href=""><i class="fa-brands fa-github"></i></a>
+            </div>
+
+
+
 
         </section>
 
@@ -574,9 +591,47 @@
     <!-- main section end -->
 
     <!-- footer section start -->
-    <footer>
-
-
+    <footer class="footer p-16 lg:p-24 bg-black mt-14">
+        <aside class="flex flex-col items-center lg:items-start">
+            <h3 class="text-2xl text-white font-extrabold">Get In Touch</h3>
+            <p class="text-base text-white opacity-60 font-medium w-2/3 text-center lg:text-start mx-auto lg:mx-0">Dit amet consectetur. Condimentum adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam
+                proin.</p>
+            <div class="space-y-3">
+                <div class="flex gap-3 items-center">
+                    <img class="mt-3" src="./Images/msg.png" alt="">
+                    <h5 class="text-base text-white opacity-80 font-medium mt-3 hover:text-red-600 cursor-pointer">hockeys@support.com</h5>
+                </div>
+                <div class="flex gap-3 items-center">
+                    <img class="mt-3" src="./Images/phn.png" alt="">
+                    <h5 class="text-base text-white opacity-80 font-medium mt-3  hover:text-red-600 cursor-pointer">(+62) 123-321-543</h5>
+                </div>
+            </div>
+        </aside>
+        <div class="flex lg:items-start gap-14">
+            <nav class="flex gap-4 flex-col">
+                <header class="footer-title text-lg text-white font-bold opacity-100">Company</header>
+                <a class="link link-hover text-base text-white opacity-60 font-medium">About us</a>
+                <a class="link link-hover text-base text-white opacity-60 font-medium">Leadership</a>
+                <a class="link link-hover text-base text-white opacity-60 font-medium">Careers</a>
+                <a class="link link-hover text-base text-white opacity-60 font-medium">News & Article</a>
+                <a class="link link-hover text-base text-white opacity-60 font-medium">Legal Notice</a>
+            </nav>
+            <nav class="flex gap-4 flex-col">
+                <header class="footer-title text-lg text-white font-bold opacity-100">Support</header>
+                <a class="link link-hover text-base text-white opacity-60 font-medium">Help Center</a>
+                <a class="link link-hover text-base text-white opacity-60 font-medium">FAQ</a>
+                <a class="link link-hover text-base text-white opacity-60 font-medium">Ticket Support</a>
+                <a class="link link-hover text-base text-white opacity-60 font-medium">Contact Us</a>
+            </nav>
+        </div>
+        <nav class="flex flex-col justify-center lg:justify-end items-center mx-auto lg:items-start">
+            <header class="footer-title text-lg text-white font-bold opacity-100">Services</header>
+            <a class="link link-hover text-base text-white opacity-60 font-medium">Academy</a>
+            <a class="link link-hover text-base text-white opacity-60 font-medium">Group Lesson</a>
+            <a class="link link-hover text-base text-white opacity-60 font-medium">Private Lesson</a>
+            <a class="link link-hover text-base text-white opacity-60 font-medium">Hockeys for kids</a>
+            <a class="link link-hover text-base text-white opacity-60 font-medium">Hockeys for Adult</a>
+        </nav>
     </footer>
 
 </body>
