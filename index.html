@@ -88,29 +88,29 @@
             <div id="slide1" class="carousel-item relative bg-center w-full rounded-2xl">
                 <img src="./Images/1.png" class="w-full" />
                 <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                    <a href="#slide4" class="btn btn-circle">❮</a>
-                    <a href="#slide2" class="btn btn-circle">❯</a>
+                    <a href="#slide4" class="btn btn-circle hover:bg-red-500 bg-black text-white">❮</a>
+                    <a href="#slide2" class="btn btn-circle hover:bg-red-500 bg-black text-white">❯</a>
                 </div>
             </div>
             <div id="slide2" class="carousel-item relative bg-center w-full">
                 <img src="./Images/pr01.png" class="w-full" />
                 <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                    <a href="#slide1" class="btn btn-circle">❮</a>
-                    <a href="#slide3" class="btn btn-circle">❯</a>
+                    <a href="#slide1" class="btn btn-circle hover:bg-red-500 bg-black text-white">❮</a>
+                    <a href="#slide3" class="btn btn-circle hover:bg-red-500 bg-black text-white">❯</a>
                 </div>
             </div>
             <div id="slide3" class="carousel-item relative bg-center w-full">
                 <img src="./Images/pr02.png" class="w-full" />
                 <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                    <a href="#slide2" class="btn btn-circle">❮</a>
-                    <a href="#slide4" class="btn btn-circle">❯</a>
+                    <a href="#slide2" class="btn btn-circle hover:bg-red-500 bg-black text-white">❮</a>
+                    <a href="#slide4" class="btn btn-circle hover:bg-red-500 bg-black text-white">❯</a>
                 </div>
             </div>
             <div id="slide4" class="carousel-item relative bg-center w-full">
                 <img src="./Images/pr03.png" class="w-full" />
                 <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                    <a href="#slide3" class="btn btn-circle">❮</a>
-                    <a href="#slide1" class="btn btn-circle">❯</a>
+                    <a href="#slide3" class="btn btn-circle hover:bg-red-500 bg-black text-white">❮</a>
+                    <a href="#slide1" class="btn btn-circle hover:bg-red-500 bg-black text-white">❯</a>
                 </div>
             </div>
         </div>
@@ -118,8 +118,10 @@
         <div
             class="bg-center lg:h-[150px] lg:w-[550px] mx-auto bg-black lg:absolute -bottom-[5%] right-[15%] rounded-2xl">
             <div class="p-6 lg:p-8">
-                <h3 class="text-lg lg:text-2xl text-white font-medium lg:font-extrabold">Meet all the heroes from the field</h3>
-                <p class="text-sm lg:text-base text-white opacity-60 lg:font-medium mt-2">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in
+                <h3 class="text-lg lg:text-2xl text-white font-medium lg:font-extrabold">Meet all the heroes from the
+                    field</h3>
+                <p class="text-sm lg:text-base text-white opacity-60 lg:font-medium mt-2">Dit amet consectetur.
+                    Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in
                     sit nullam proin. </p>
             </div>
         </div>
@@ -568,7 +570,7 @@
                     nullam proin.</p>
             </div>
             <hr class="border-dashed mt-12 lg:mt-16 mb-8">
-            <div class="flex flex-col lg:flex-row gap-6">
+            <div class="flex flex-col lg:flex-row gap-16">
                 <div class="border border-gray-300 p-8 lg:h-[765px] lg:p-10 lg:w-[40%]">
                     <div>
                         <div class="bg-green-100 rounded-2xl mb-6 p-6 lg:p-12">
@@ -597,36 +599,52 @@
                     </div>
 
                 </div>
+                <!-- form section -->
                 <div>
-                    <div>
-                        <label for="">Your Name</label>
-                        <input type="text" placeholder="Enter your full name"
-                            class="mt-2 input input-bordered w-full" />
-                    </div>
-                    <div>
-                        <label for="">Your Email</label>
-                        <input type="text" placeholder="Enter your email" class="mt-2 input input-bordered w-full" />
-                    </div>
-                    <div>
-                        <label for="">Subject</label>
-                        <input type="text" placeholder="Enter your subject" class="mt-2 input input-bordered w-full" />
-                    </div>
-                    <div>
-                        <label for="">Phone Number</label>
-                        <input type="text" placeholder="Enter your phone number"
-                            class="mt-2 input input-bordered w-full" />
-                    </div>
-                    <div>
-                        <label for="">Message</label>
-                        <textarea class="w-full textarea textarea-bordered" placeholder="Write your message"
-                            rows="5"></textarea>
-                    </div>
-                    <button
-                        class="flex flex-col text-xl font-bold text-white bg-[#FF4240] hover:bg-red-400 border-[1px] border-[#FF4240] rounded-lg px-5 py-3">Message
-                        me</button>
-                </div>
+                    <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12">
 
+                        <div>
+                            <label class="text-xl text-black font-bold" for="">Your Name</label>
+                            <input type="text" placeholder="Enter your full name"
+                                class="mt-2 lg:mt-3 input bg-gray-100 rounded-xl w-full" />
+                        </div>
+                        <div>
+                            <label class="text-xl text-black font-bold" for="">Your Email</label>
+                            <input type="text" placeholder="Enter your email"
+                                class="mt-2 lg:mt-3 input bg-gray-100 rounded-xl w-full" />
+                        </div>
+                        <div>
+                            <label class="text-xl text-black font-bold" for="">Subject</label>
+                            <input type="text" placeholder="Enter your subject"
+                                class="mt-2 lg:mt-3 input bg-gray-100 rounded-xl w-full" />
+                        </div>
+
+                        <div>
+                            <label class="text-xl text-black font-bold" for="">Phone Number</label>
+                            <input type="text" placeholder="Enter your phone number"
+                                class="mt-2 lg:mt-3 lg:mb-10 input bg-gray-100 rounded-xl w-full" />
+                        </div>
+
+                    </div>
+                    <div class="flex flex-col gap-10">
+
+                        <div class="mt-4">
+                            <label class="text-xl text-black font-bold" for="">Message</label>
+                            <textarea class="w-full textarea bg-gray-100 rounded-xl mt-3"
+                                placeholder="Write your message" rows="6"></textarea>
+                        </div>
+                        <div>
+                            <button
+                                class="w-full text-xl font-bold text-white bg-[#FF4240] hover:bg-red-400 border-[1px] border-[#FF4240] rounded-lg px-5 py-3">send
+                                Message</button>
+                        </div>
+
+                    </div>
+
+
+                </div>
             </div>
+
 
         </section>
         <!-- social media section -->
